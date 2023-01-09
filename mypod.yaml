@@ -3,8 +3,6 @@ kind: Pod
 metadata:
   labels:
     run: my-pod
-  name: my-pod
-  namespace: argocd
 spec:
   serviceAccountName: my-sa
   initContainers:
